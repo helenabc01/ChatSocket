@@ -1,0 +1,140 @@
+body {
+    background-color: #2C2F33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    color: #7289DA;
+}
+
+.login {
+    background-color: #FFFFFF;
+    border: 2px solid #7289DA;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.login label {
+    color: #2C2F33;
+    font-weight: bold;
+}
+
+.login input {
+    background-color: #F0F4F8;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DA;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login button {
+    border: none;
+    font-size: 17px;
+    color: #FFFFFF;
+    background-color: #7289DA;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background-color: #5B6EAE;
+}
+
+#chat {
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+    background-color: #36393F;
+    border-radius: 15px;
+    border: 2px solid #7289DA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.chat-header {
+    text-align: center;
+}
+
+.chat-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#oChat {
+    background-color: #2C2F33;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.message-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.message-input input {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #D1D5DA;
+}
+
+.message-input button {
+    background-color: #7289DA;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-input button:hover {
+    background-color: #5B6EAE;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    background-color: #7289DA;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.img{
+    height: 30px;
+    border-radius:40px ;
+    margin-right: 10px;
+    margin-left: 7px;
+}

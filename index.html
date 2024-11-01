@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatSocket</title>
+    <script src="client.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h2>ChatSocket</h2>
+        <label>Qual seu nome?</label>
+        <input type="text" id="oInput" placeholder="Digite seu nome..."> 
+        <button id="btnLogin" onclick="enviaMensagem(1)">Entrar</button>
+    </div>
+
+    <div id="chat" style="display: none;">
+        <div class="chat-header">
+            <h2>ChatSocket</h2>
+        </div>
+        <div id="aDiv"></div>  
+
+        <div class="chat-body">
+            <div id="oChat"></div>
+            <div class="message-input">
+                <input type="text" id="theMsg" placeholder="Digite sua mensagem..." oninput="enviaMensagem(4)">
+                <button onclick="checkType()">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
