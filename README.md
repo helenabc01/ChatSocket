@@ -28,3 +28,26 @@ jogadores.
 ou dashboards que monitoram métricas ao vivo, os
 WebSockets são úteis para enviar notificações e
 atualizações assim que os eventos ocorrem.
+
+# Para rodar o projeto:
+## Certifique-se de que você tem o Node.js e o npm instalados.
+```bash
+node -v
+npm -v
+```
+## Instalação:
+- Clone o repositório:
+```bash
+git clone https://github.com/helenabc01/ChatSocket.git
+```
+- Instale as dependencias:
+```bash
+npm i
+```
+- Coloque para rodar o server.js:
+```bash
+npm run start
+```
+
+Espero que tenha ajudado!!! <br>
+😊😊😊
